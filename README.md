@@ -1,1 +1,1 @@
-# 2chains
+# 12/3 class activity
