@@ -1,43 +1,109 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <title>modal using bootstrap</title>
+    <title>Modal Windows by Jayden Payne</title>
+ <link rel="stylesheet" href="index.css" type="text/css">
   </head>
   <body>
-    <div class="container">
-      <h3>Modal Window</h3>
-      <!-- NOTE: button to open modal window -->
-     <button type="button" name="btn btn-primary" data-toggle="modal" data-target="#myModal">Info on New York</button>
-<!-- NOTE: the modal -->
-<div class="modal" id="myModal">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <!-- NOTE: modal header -->
-      <div class="modal-header bg-warning">
-        <h4>This is the title of the modal window</h4>
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
+    <a href="#openModal" class="linkModal">Open Modal Link</a>
+<!--modal window openModal-->
+<div class="modalWindow" id="openModal">
+      <div class="msgText">
+        <h3>Modal Window by Jayden Payne</h3>
+        <p>This is a paragraph in the message window. You could do a lot of things in here like have a pop up that shows promotion information,images, or create a login/register for users</p>
+        <img src="images/jill.jpg" alt="jill img">
+        <a href="#" class="modal-close">Close</a>
       </div>
-      <!-- NOTE: modal body -->
-      <div class="modal-body">
-        <h5>New York City <small>The Big Apple</small></h5>
-        <img src="images/nyc.jpg" alt="nyc" title="New York City" style="width:100%">
-        <p>This paragraph describes New York</p>
-      </div>
-      <div class="modal-footer">
-          <button type="button" name="btn btn-danger" data-dismiss="modal">Close</button>
+</div>
+<br><br><hr>
+<h1>Shop Video Games</h1>
 
-      </div>
-    </div>
-   </div>
-  </div><!-- NOTE: end of modal -->
-    </div><!-- NOTE: end of container -->
+  <h3>Marvel vs Capcom: Clash of Super Heroes (PS1)</h3>
+  <img src="images/cover1.jpg" alt="mvc1">
+<br><br>
+ <a href="#openModal2" class="linkModal2">Add to Cart</a>
+
+<br><br>
+<div class="modalWindow" id="openModal2">
+       <div class="msgText">
+         <h3>Purchase Marvel Vs Capcom  </h3>
+         <p>Marvel vs. Capcom: Clash of Super Heroes is a crossover fighting game developed and published by Capcom. It is the third installment in the Marvel vs. Capcom series, which features characters from Capcom's video game franchises and characters from Marvel Comics. The game debuted in Japanese and North American arcades in 1998. It was ported to the Dreamcast in 1999 and the PlayStation in 2000.</p>
+         <img src="images/cover1.jpg" alt="mvc1">
+         <p class="price">$39.99</p>
+         <a href="#" class="modal-close">Close</a>
+       </div>
+ </div>
+ <h3>Marvel vs Capcom 2:New Age of Heroes (Dreamcast)</h3>
+ <img src="images/cover2.jpg" alt="mvc2" class="cover2">
+ <br><br>
+ <a href="#openModal3" class="linkModal2">Add to Cart</a>
+ <div class="modalWindow" id="openModal3">
+        <div class="msgText">
+          <h3>Purchase Marvel Vs Capcom 2 </h3>
+          <p>In Marvel vs. Capcom 2, players select a team of characters from the Marvel and Capcom universes to engage in combat and attempt to knock out their opponents.The character artwork uses traditional 2D-animated sprites, while the backgrounds and visual effects are rendered in 3D. This makes Marvel vs. Capcom 2 the first game in the franchise to feature 2.5D graphics.</p>
+          <img src="images/cover2.jpg" alt="mvc2">
+          <p class="price">$49.99</p>
+          <a href="#" class="modal-close">Close</a>
+        </div>
+ </div>
+ <br><br>
+ <h3>X-men vs Street Fighter (PS1)</h3>
+ <img src="images/cover3.jpg" alt="xvs" class="cover2">
+ <br><br>
+ <a href="#openModal4" class="linkModal2">Add to Cart</a>
+ <div class="modalWindow" id="openModal4">
+        <div class="msgText">
+          <h3>Purchase X-men vs Street Fighter </h3>
+          <p>X-Men vs. Street Fighter is a crossover fighting video game developed and published by Capcom. It is Capcom's third fighting game to feature Marvel Comics characters, following X-Men: Children of the Atom and Marvel Super Heroes, and the first installment in the Marvel vs. Capcom series.</p>
+          <img src="images/cover3.jpg" alt="xvs">
+          <p class="price">$59.99</p>
+          <a href="#" class="modal-close">Close</a>
+        </div>
+ </div>
+ <h3>Capcom vs SNK Pro (Dreamcast)</h3>
+ <img src="images/cover4.jpg" alt="xvs" class="cover2">
+ <br><br>
+ <a href="#openModal5" class="linkModal2">Add to Cart</a>
+ <div class="modalWindow" id="openModal5">
+        <div class="msgText">
+          <h3>Purchase Capcom vs. SNK: Millennium Fight 2000 </h3>
+          <p>Capcom vs. SNK Pro is a fighting game that was developed by Capcom and released in 2000. It is an upgrade to the original Capcom vs. SNK, which features characters from various Capcom and SNK franchises, most notably Street Fighter II and The King of Fighters.</p>
+          <img src="images/cover4.jpg" alt="cvssnk">
+          <p class="price">$29.99</p>
+          <a href="#" class="modal-close">Close</a>
+        </div>
+ </div>
+ <h3>Street Fighter III: Third Strike (Dreamcast)</h3>
+ <img src="images/cover5.jpg" alt="sf3" class="cover2">
+ <br><br>
+ <a href="#openModal6" class="linkModal2">Add to Cart</a>
+ <div class="modalWindow" id="openModal6">
+        <div class="msgText">
+          <h3>Purchase Street Fighter III: Third Strike </h3>
+          <p>Street Fighter III 3rd Strike is the second follow-up to Street Fighter III, following Street Fighter III: 2nd Impact. Like its predecessors, it runs on the CP System III hardware. 3rd Strike increased the character roster by adding five new characters, notably including Chun-Li. It also added further refinements to the previous game's play mechanics and rules.</p>
+          <img src="images/cover5.jpg" alt="sf3">
+          <p class="price">$39.99</p>
+          <a href="#" class="modal-close">Close</a>
+        </div>
+ </div>
+ <h3>Street Fighter: Alpha 3 (PS1)</h3>
+ <img src="images/cover6.jpg" alt="sfa3" class="cover2">
+ <br><br>
+ <a href="#openModal7" class="linkModal2">Add to Cart</a>
+ <div class="modalWindow" id="openModal7">
+        <div class="msgText">
+          <h3>Purchase Street Fighter: Alpha 3 </h3>
+          <p>Street Fighter Alpha 3 is a 2D competitive fighting game originally released by Capcom for the arcades in 1998. It is the third game in the Street Fighter Alpha sub-series, which serves as a prequel to Street Fighter II, and ran on the same CP System II hardware as previous Alpha games.Alpha 3 further expanded the playable fighter roster from Street Fighter Alpha 2 and added new features such as selectable fighting styles called "isms".</p>
+          <img src="images/cover6.jpg" alt="sfa3">
+          <p class="price">$39.99</p>
+          <a href="#" class="modal-close">Close</a>
+        </div>
+ </div>
 
 
-    <!-- Optional JavaScript -->
+
+
+
+  </body>
+</html>
