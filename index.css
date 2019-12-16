@@ -1,133 +1,92 @@
-body{padding: 10px;
-background-color: lightblue}
-.linkModal{
-  text-align: center;
-  background-color: orange;
-  font-size: 20px;
-  border-radius:20px;
-  padding: 10px;
-  text-decoration: none;
+body{}
+.nav_bars {background-color: black;
+width: 100%;
+height: 60px;
 }
-.linkModal:hover{
-  background-color: lightyellow;
-  color: orange
-}
-.modalWindow{
-  position:fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(100, 100, 100, 0.5);
-  opacity: 0;
-  pointer-events:none
+.nav_bars2{background-color: black;
+width: 100%;
+height: 80px}
+.nav_bars a{
+color: darkblue;
+border-color: black;
+text-decoration:none;
+float: left;
+width: 22%;
+padding: 20px;
+text-align: center;
+border-left: ridge 5px lightgray;
+font-family: sans-serif;
+font-weight: bold;}
+.nav_bars a:hover{
+  background-color: lightgray;
+  color:orange}
+ .intro{
+   height: 100px;
+   width: 1000px;
+ }
+  .intropara{
+    background-color: gray;
+    height: 250px;
+    width: 510px
   }
-.modalWindow:target{
-  opacity: 1;
-  pointer-events: auto;
-  transition: ease-in 1s;
-}
-.msgText{
-  position: relative;
-  width: 700px;
-  height: 500px;
-  background-color: lightblue;
-  top: 100px;
-  left: 560px;
-  padding: 20px;
-}
-.msgText h3{
-  background-color: gray;
-  padding: 10px;
-  color: white;
-}
-.msgText img{
-  width: 30%;
-  margin-left: 35%
-}
-.modal-close{
-  padding: 12px;
-  color:blue;
-  text-decoration: none;
-}
-.modal-close:hover{
-  color: red;
-  text-decoration: underline;
-}
+   h1 {padding-left: 100px;
+    padding-top: 25px;
+    font-family: fantasy;
+    color: darkblue}
+  .intropara p {padding-left:30px}
+  .me{border-radius: 100px;
+    border: ridge 5px yellow;
+    animation: spin 3s;}
+
+  @keyframes spin {
+      0%{transform: rotate(0deg);}
+      100%{transform: rotate(360deg);}}
+
+
+  .myname{ animation: zoom 10s;
+  color: darkblue}
+@keyframes zoom{
+  0%{transform: scale(0); top: 100px; left:100px}
+  50%{transform: scale(1); top:600px; left: 600px}
+  100%{transform: scale(0.3);}}}
+
+  .card2{
+  margin:20px;
+  box-sizing: border-box;
+  border: solid lightgreen 2px}
+
+ .col-sm-2:hover{
+   box-shadow: 2px 2px 10px lightgreen
+ }
+.uuu {width: 70%}
+ .uuu:hover{color: ;}
 
 
 
-.linkModal2{
-  text-align: center;
-  background-color: orange;
-  font-size: 20px;
-  border-radius:20px;
-  padding: 10px;
-  text-decoration: none;}
-  .linkModal2:hover{
-    background-color: lightyellow;
-    color: orange;}
-  .price{
-    text-align: center;
-    background-color: orange;
-    font-size: 20px;
-    border-radius:20px;
-    padding: 10px;
-    text-decoration: none;}
-  .cover2{
-    height:342px;
-    weight:342px}
-.linkModal3{
-      text-align: center;
-      background-color: orange;
-      font-size: 20px;
-      border-radius:20px;
-      padding: 10px;
-      text-decoration: none;}
-.linkModal3:hover{
-        background-color: lightyellow;
-        color: orange;}
 
-        .linkModal4{
-              text-align: center;
-              background-color: orange;
-              font-size: 20px;
-              border-radius:20px;
-              padding: 10px;
-              text-decoration: none;}
-        .linkModal4:hover{
-                background-color: lightyellow;
-                color: orange;}
 
-                .linkModal5{
-                      text-align: center;
-                      background-color: orange;
-                      font-size: 20px;
-                      border-radius:20px;
-                      padding: 10px;
-                      text-decoration: none;}
-                .linkModal5:hover{
-                        background-color: lightyellow;
-                        color: orange;}
+                                          .flex-container{
+                                            display: flex;
+                                            flex-wrap: wrap;
+                                            background-color: rgba(100, 100, 100, 0.5)}
+                                          .flex-container div {
+                                            width: 100%;
+                                            margin: 10px;
+                                            text-align: center;
+                                            line-height: 30px;
+                                            font-size: 20px;
+                                            color: darkblue;
+                                            text-align: center;}
 
-                        .linkModal6{
-                              text-align: center;
-                              background-color: orange;
-                              font-size: 20px;
-                              border-radius:20px;
-                              padding: 10px;
-                              text-decoration: none;}
-                        .linkModal6:hover{
-                                background-color: lightyellow;
-                                color: orange;}
+                                          .flex-container2{
+                                            display: flex;
+                                            flex-wrap: wrap;
+                                            background-color: rgba(100, 100, 100, 0.5)}
+                                          .flex-container2 div {
+                                            width: 10%;
+                                            margin: 10px;
+                                            text-align: center;
+                                            line-height: 75px;
+                                            font-size: 30px}
 
-                                .linkModal7{
-                                      text-align: center;
-                                      background-color: orange;
-                                      font-size: 20px;
-                                      border-radius:20px;
-                                      padding: 10px;
-                                      text-decoration: none;}
-                                .linkModal7:hover{
-                                        background-color: lightyellow;
-                                        color: orange;}
+                                        .copyright{text-align: center;color: Darkblue;}
