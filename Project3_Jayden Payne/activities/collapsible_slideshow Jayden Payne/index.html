@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link rel="stylesheet" href="index.css" type="text/css">
+    <title>Collapsible slideshow by Jayden Payne</title>
+  </head>
+  <body>
+    <button type="button" name="button" class="btn btn-primary" data-toggle="collapse" data-target="#nyc">New York City</button>
+
+<div class="collapse collapseNYC" id="nyc">
+  <p>New York City is situated on one of the world's largest natural harbors. It has five boroughs, each which is a seperae county of the state of New York. The five boroughs are the Bronx, Queens, Staten Island, Brooklyn and Manhatten </p>
+<figure>
+  <img src="images/queens.gif" alt="queens" title="queens" class="img-thumbnail">
+  <img src="images/brooklyn.jpg" alt="brooklyn" title="brooklyn" class="img-thumbnail">
+  <img src="images/manhatten.png" alt="manhatten" title="manhatten" class="img-thumbnail">
+  <img src="images/staten island.png" alt="staten" title="staten island" class="img-thumbnail">
+  <img src="images/bronx.png" alt="bronx" title="bronx" class="img-thumbnail">
+</figure>
+</div>
+<br><br><hr><br><br>
+<div id="NYCAccordion">
+  <div class="card">
+    <div class="card-header">
+      <h5> <a  data-toggle="collapse" data-parent="NYCAccordion" href="#NYCContent"></a> New York City </h5>
+      </div>
+
+      <div class="collapse" id="NYCContent">
+        <div class="card-block">
+          <p>New York City is situated on one of the world's largest natural harbors. It has five boroughs, each which is a seperae county of the state of New York. The five boroughs are the Bronx, Queens, Staten Island, Brooklyn and Manhatten </p>
+        <figure>
+          <img src="images/queens.gif" alt="queens" title="queens" class="img-thumbnail">
+          <img src="images/brooklyn.jpg" alt="brooklyn" title="brooklyn" class="img-thumbnail">
+          <img src="images/manhatten.png" alt="manhatten" title="manhatten" class="img-thumbnail">
+          <img src="images/staten island.png" alt="staten" title="staten island" class="img-thumbnail">
+          <img src="images/bronx.png" alt="bronx" title="bronx" class="img-thumbnail">
+        </figure>
+        </div>
+      </div>
+  </div>
+</div>
+
+<br><br><hr><br><br>
+
+<button type="button" name="button" class="btn btn-primary" data-toggle="collapse" data-target="#queens">Queens</button>
+
+<div class="collapse collapseNYC" id="queens">
+<p>New York City is situated on one of the world's largest natural harbors. It has five boroughs, each which is a seperae county of the state of New York. The five boroughs are the Bronx, Queens, Staten Island, Brooklyn and Manhatten </p>
+<figure>
+<img src="images/queens.gif" alt="queens" title="queens" class="img-thumbnail">
+
+</figure>
+</div>
+
+<button type="button" name="button" class="btn btn-primary" data-toggle="collapse" data-target="#brooklyn">Brooklyn</button>
+
+<div class="collapse collapseNYC" id="brooklyn">
+<p>New York City is situated on one of the world's largest natural harbors. It has five boroughs, each which is a seperae county of the state of New York. The five boroughs are the Bronx, Queens, Staten Island, Brooklyn and Manhatten </p>
+<figure>
+<img src="images/brooklyn.jpg" alt="brooklyn" title="brooklyn" class="img-thumbnail">
+
+</figure>
+</div>
+
+<button type="button" name="button" class="btn btn-primary" data-toggle="collapse" data-target="#manhatten">Manhatten</button>
+
+<div class="collapse collapseNYC" id="manhatten">
+<p>New York City is situated on one of the world's largest natural harbors. It has five boroughs, each which is a seperae county of the state of New York. The five boroughs are the Bronx, Queens, Staten Island, Brooklyn and Manhatten </p>
+<figure>
+<img src="images/manhatten.png" alt="manhatten" title="manhatten" class="img-thumbnail">
+
+</figure>
+</div>
+
+<br><br><hr><br><br>
+<div class="carousel slide carouselContainer" data-ride=carousel id="slideshow">
+  <div class="carousel-item carouselSize active">
+    <img src="images/queens.gif" alt="queens" title="queens" class="img-thumbnail">
+    <div class="carousel-caption captionCSS">
+    Queens
+  </div>
+  </div>
+  <div class="carousel-item carouselSize">
+    <img src="images/brooklyn.jpg" alt="brooklyn" title="brooklyn" class="img-thumbnail">
+  <div class="carousel-caption captionCSS">
+   Brooklyn
+  </div>
+  </div>
+  <div class="carousel-item carouselSize">
+    <img src="images/manhatten.png" alt="manhatten" title="manhatten" class="img-thumbnail">
+  <div class="carousel-caption captionCSS">
+    Manhatten
+  </div>
+  </div>
+<a href="#slideshow" data-slide="prev" class="carousel-control-prev"><span class="carousel-control-prev-icon"></span> </a>
+<a href="#slideshow" data-slide="next" class="carousel-control-next"><span class="carousel-control-next-icon"></span> </a>
+
+<ul class="carousel-indicators">
+  <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+  <li data-target="#slideshow" data-slide-to="1"></li>
+  <li data-target="#slideshow" data-slide-to="2"></li>
+</ul>
+</div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

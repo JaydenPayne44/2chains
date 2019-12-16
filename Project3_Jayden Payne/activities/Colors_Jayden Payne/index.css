@@ -1,0 +1,130 @@
+body{
+padding: 10px;
+box-sizing: border-box}
+.p1{
+  background-color: Wheat;
+  padding: 12px}
+.p2{
+    background-color: Thistle;
+    padding: 12px}
+.p3{
+      background-color: Teal;
+      padding: 12px}
+.p4{
+  background-color: rgb(128,128,64);
+  padding: 12px}
+.p5{
+  background-color: rgb(36,36,232);
+  padding: 12px}
+.p6{
+  background-color: rgb(128,0,255);
+  padding: 12px}
+.p7{
+  background-color: #9ACD32;
+  padding: 12px}
+.p8{
+  background-color: #FFDAB9;
+  padding: 12px}
+.p9{
+  background-color: #B0E0E6;
+  padding: 12px}
+.p10{background-color: rgb(128,128,64, 0.1);
+padding: 12px}
+.p11{background-color: rgb(128,128,64, 0.5);
+padding: 12px}
+.p12{background-color: rgb(128,128,64, 1);
+padding: 12px}
+.gradient1{height: 200px;
+background-image: linear-gradient(wheat,thistle);}
+.gradient2{height: 200px;
+background-image: linear-gradient(to top right, wheat,thistle);}
+img{
+  width: 100%;
+  height: 100%}
+.img1{
+width: 500px;
+height: 500px;
+position: relative}
+.StormTitle{
+  width: 300px;
+  position: absolute;
+  top: 0px;
+  left:80px;
+  background-color: rgba(0,0,0,0.5);
+  padding: 20px;
+  text-align: center;
+  font-size: 2em;
+  color: white}
+.container{
+width: 500px;
+height: 500px;
+position: relative;}
+.textStorm{
+width: 200px;
+position: absolute;
+color: orange;
+font-size: 1.5em;
+bottom: 0px;
+right: 0px}
+.heroImage{background-image: linear-gradient( rgb(128,128,64,0.5),rgb(128,0,255,0.5) ),url("images/storm.webp");
+background-repeat: no-repeat;
+background-size: 600px 600px;
+height: 700px;
+width: 700px;
+position: relative;}
+.heroText{
+border: solid blue;
+width: 50%;
+position: absolute;
+left: 25%;
+bottom:30%;
+Color: white;
+text-align: center;}
+.submit{
+color: lightgrey;
+text-decoration: none;
+display: inline-block;
+margin: 60px;
+background-color: black;
+padding:20px;
+border-radius: 10px;}
+.submit:hover{
+background-color: yellow;
+color: blue;
+box-shadow: 0px 0px 5px 2px red:}
+.filterContainer{
+  height:1000px;
+  width: 1000px;
+  margin:auto;}
+  .filterContainer img{
+    width: 40%;
+    height:40%;
+    margin: 20px}
+    .blur1{filter: blur(1px);}
+    .blur2{filter: blur(5px);}
+    .blur3{filter: blur(10px);}
+    .blur4{filter: blur(20px);}
+
+    .contrast1{filter:contrast(0%);}
+    .contrast2{filter:contrast(30%);}
+    .contrast3{filter:contrast(60%);}
+    .contrast4{filter:contrast(100%);}
+
+    .invert1{filter: invert(0%);}
+    .invert2{filter: invert(30%);}
+    .invert3{filter: invert(60%);}
+    .invert4{filter: invert(100%);}
+
+    .filterContainer2{
+      height:600px;
+      width:400px;
+      margin:auto;}
+.lib{filter: invert(100%);}
+.img1{
+  height:500px;
+  width:400px;
+  margin:auto;}
+.libtitle
+.container2{
+  height: 300px;
+  width: 100px}
