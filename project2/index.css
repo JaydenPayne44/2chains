@@ -1,0 +1,254 @@
+body{background:url(images/rain.gif);
+  background-color: black;
+}
+.umbrella{height: 200px; width: 200px;
+border-radius: 50%;
+border:ridge 5px yellow;
+animation: spin 20s
+}
+@keyframes spin {
+  0%{transform: rotate(0deg);}
+      30%{transform: rotate(360deg);}
+      60%{transform: rotate(-180deg);}
+      100%{transform: rotate(0deg);}}
+}
+.header{}
+.Logo{height:200px; width:800;
+color: Yellow;
+font-size: 5em;
+font-family: fantasy;
+text-shadow: 5px 15px 10px lightblue;
+}
+.Brand{color:white; animation: zoom 5s 3}
+@keyframes zoom {
+  0%{transform: scale(1); top: 100px; left:100px}
+  50%{transform: scale(0.5); top:600px; left: 600px}
+  100%{transform: scale(1);}}
+.slideshow{overflow: hidden;
+width: 1500px;
+height:50px;
+margin: auto;
+}
+.slide-wrapper{width: 4800px;height: 50px;
+  animation: slideshow 30s infinite 5s;
+  }
+  @keyframes slideshow {
+    0%{margin-left: 0px}
+    50%{margin-left: -1600px}
+    100%{margin-left: -3200px}
+    }
+    .slide{float: left;
+    height: 100%;
+    width: 33.3%;
+    font-size: 2.5em;
+    text-align: center;
+  }
+    .slide:nth-child(1){background-color: yellow}
+    .slide:nth-child(2){background-color: orange}
+    .slide:nth-child(3){background-color: red}
+
+.pic1{height: 700px; width: 1500px; padding-left:194px ; }
+.pic2{height: 700px; width: 1500px; padding-left:194px ;background-image: linear-gradient( rgb(128,128,64,0.5),rgb(128,0,255,0.5) ),}
+
+.imgtext{width: 500px;
+position:absolute;
+top: 650px;
+left:250px;
+background-color: rgba(0,0,40,0.5);
+padding: 20px;
+text-align: center;
+font-size: 2em;
+color: white;
+border: ridge 2px blue}
+
+.imgtext2{width: 400px;
+position:absolute;
+top: 1150px;
+left:200px;
+padding: 20px;
+text-align: center;
+font-size: 2em;
+color: blue;
+}
+
+
+
+
+h1{height:200px; width:800;
+color: Yellow;
+font-size: 5em;
+font-family: fantasy;
+text-shadow: 5px 15px 10px lightblue;
+padding-left: 800px}
+
+h3{height:100px; width:200;
+color: Yellow;
+font-size: 2em;
+font-family: fantasy;
+text-shadow: 5px 15px 10px lightblue;
+}
+
+
+
+
+
+
+.linkModal{
+  text-align: center;
+  background-color: orange;
+  font-size: 20px;
+  border-radius:20px;
+  padding: 10px;
+  text-decoration: none;
+}
+.linkModal:hover{
+  background-color: lightyellow;
+  color: orange
+}
+.modalWindow{
+  position:fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(100, 100, 100, 0.5);
+  opacity: 0;
+  pointer-events:none
+  }
+.modalWindow:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in 1s;
+}
+.msgText{
+  position: inherit;
+  width: 700px;
+  height: 500px;
+  background-color: lightblue;
+  top: 100px;
+  left: 560px;
+  padding: 20px;
+}
+.msgText h2{
+  background-color: gray;
+  padding: 10px;
+  color: white;
+}
+.msgText img{
+  width: 30%;
+  margin-left: 35%
+}
+.modal-close{
+  padding: 12px;
+  color:blue;
+  text-decoration: none;
+}
+.modal-close:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+
+
+.linkModal2{
+  text-align: center;
+  background-color: orange;
+  font-size: 20px;
+  border-radius:20px;
+  padding: 10px;
+  text-decoration: none;}
+  .linkModal2:hover{
+    background-color: lightyellow;
+    color: yellow;}
+  .price{
+    text-align: center;
+    background-color: orange;
+    font-size: 20px;
+    border-radius:20px;
+    padding: 10px;
+    text-decoration: none;}
+  .cover2{
+    height:400px;
+    width:500px;}
+.linkModal3{
+      text-align: center;
+      background-color: orange;
+      font-size: 20px;
+      border-radius:20px;
+      padding: 10px;
+      text-decoration: none;}
+.linkModal3:hover{
+        background-color: lightyellow;
+        color: yellow;}
+
+        .linkModal4{
+              text-align: center;
+              background-color: orange;
+              font-size: 20px;
+              border-radius:20px;
+              padding: 10px;
+              text-decoration: none;}
+        .linkModal4:hover{
+                background-color: lightyellow;
+                color: yellow;}
+
+                .linkModal5{
+                      text-align: center;
+                      background-color: orange;
+                      font-size: 20px;
+                      border-radius:20px;
+                      padding: 10px;
+                      text-decoration: none;}
+                .linkModal5:hover{
+                        background-color: lightyellow;
+                        color: yellow;}
+
+                        .linkModal6{
+                              text-align: center;
+                              background-color: orange;
+                              font-size: 20px;
+                              border-radius:20px;
+                              padding: 10px;
+                              text-decoration: none;}
+                        .linkModal6:hover{
+                                background-color: lightyellow;
+                                color: yellow;}
+
+                                .linkModal7{
+                                      text-align: center;
+                                      background-color: orange;
+                                      font-size: 20px;
+                                      border-radius:20px;
+                                      padding: 10px;
+                                      text-decoration: none;}
+                                .linkModal7:hover{
+                                        background-color: lightyellow;
+                                        color: yellow;}
+
+
+                                        .flex-container{
+                                          display: flex;
+                                          flex-wrap: wrap;
+                                          background-color: rgba(100, 100, 100, 0.5)}
+                                        .flex-container >div {
+                                          width: 20%;
+                                          margin: 10px;
+                                          text-align: center;
+                                          line-height: 75px;
+                                          font-size: 20px;
+                                          color: yellow;
+                                        text-align: center;}
+
+                                        .flex-container2{
+                                          display: flex;
+                                          flex-wrap: wrap;
+                                          background-color: rgba(100, 100, 100, 0.5)}
+                                        .flex-container2 >div {
+                                          width: 10%;
+                                          margin: 10px;
+                                          text-align: center;
+                                          line-height: 75px;
+                                          font-size: 30px}
+                                          img{width: 100%;height: 100%}
+
+                                          .copyright{text-align: center;color: Yellow;}

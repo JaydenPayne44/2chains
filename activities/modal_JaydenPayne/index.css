@@ -1,0 +1,133 @@
+body{padding: 10px;
+background-color: lightblue}
+.linkModal{
+  text-align: center;
+  background-color: orange;
+  font-size: 20px;
+  border-radius:20px;
+  padding: 10px;
+  text-decoration: none;
+}
+.linkModal:hover{
+  background-color: lightyellow;
+  color: orange
+}
+.modalWindow{
+  position:fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(100, 100, 100, 0.5);
+  opacity: 0;
+  pointer-events:none
+  }
+.modalWindow:target{
+  opacity: 1;
+  pointer-events: auto;
+  transition: ease-in 1s;
+}
+.msgText{
+  position: relative;
+  width: 700px;
+  height: 500px;
+  background-color: lightblue;
+  top: 100px;
+  left: 560px;
+  padding: 20px;
+}
+.msgText h3{
+  background-color: gray;
+  padding: 10px;
+  color: white;
+}
+.msgText img{
+  width: 30%;
+  margin-left: 35%
+}
+.modal-close{
+  padding: 12px;
+  color:blue;
+  text-decoration: none;
+}
+.modal-close:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+
+
+.linkModal2{
+  text-align: center;
+  background-color: orange;
+  font-size: 20px;
+  border-radius:20px;
+  padding: 10px;
+  text-decoration: none;}
+  .linkModal2:hover{
+    background-color: lightyellow;
+    color: orange;}
+  .price{
+    text-align: center;
+    background-color: orange;
+    font-size: 20px;
+    border-radius:20px;
+    padding: 10px;
+    text-decoration: none;}
+  .cover2{
+    height:342px;
+    weight:342px}
+.linkModal3{
+      text-align: center;
+      background-color: orange;
+      font-size: 20px;
+      border-radius:20px;
+      padding: 10px;
+      text-decoration: none;}
+.linkModal3:hover{
+        background-color: lightyellow;
+        color: orange;}
+
+        .linkModal4{
+              text-align: center;
+              background-color: orange;
+              font-size: 20px;
+              border-radius:20px;
+              padding: 10px;
+              text-decoration: none;}
+        .linkModal4:hover{
+                background-color: lightyellow;
+                color: orange;}
+
+                .linkModal5{
+                      text-align: center;
+                      background-color: orange;
+                      font-size: 20px;
+                      border-radius:20px;
+                      padding: 10px;
+                      text-decoration: none;}
+                .linkModal5:hover{
+                        background-color: lightyellow;
+                        color: orange;}
+
+                        .linkModal6{
+                              text-align: center;
+                              background-color: orange;
+                              font-size: 20px;
+                              border-radius:20px;
+                              padding: 10px;
+                              text-decoration: none;}
+                        .linkModal6:hover{
+                                background-color: lightyellow;
+                                color: orange;}
+
+                                .linkModal7{
+                                      text-align: center;
+                                      background-color: orange;
+                                      font-size: 20px;
+                                      border-radius:20px;
+                                      padding: 10px;
+                                      text-decoration: none;}
+                                .linkModal7:hover{
+                                        background-color: lightyellow;
+                                        color: orange;}
